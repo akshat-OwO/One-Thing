@@ -21,7 +21,7 @@ const Form = ({ thing, handleInput, handleSubmit }) => {
                     onInput={handleInput}
                 />
                 <button className="bg-inherit rounded-md font-sans text-slate-800 py-2 pr-6 focus:outline-none focus:text-teal-600 hover:text-teal-600">
-                    <ArrowCircleRightIcon className="h-12 w-12" />
+                    <ArrowCircleRightIcon className="h-12 w-12 pointer-events-none" />
                 </button>
             </form>
         </>
